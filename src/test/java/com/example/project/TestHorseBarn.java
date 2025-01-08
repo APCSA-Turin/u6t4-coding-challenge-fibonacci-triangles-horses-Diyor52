@@ -22,7 +22,7 @@ public class TestHorseBarn{
         assertArrayEquals(horses,horses2, "getStalls() did not return {abe,barb,null,cathy}");
     }
 
-
+    @Test
     public void testHorseBarnInfo(){
         HorseBarn barn1 = new HorseBarn(5);
         String expected =
